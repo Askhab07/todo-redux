@@ -1,0 +1,14 @@
+.homepage {
+    width: 390px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-color1);
+    position: relative;
+
+    &__content {
+        width: 360px;
+    }
+}
