@@ -1,5 +1,6 @@
 {
-  "name": "my-todo-list",
+  "homepage": "https://askhab07.github.io/todo-redux",
+  "name": "todo-redux",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +9,9 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://askhab07.github.io/todo-redux",
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.1",
     "axios": "^1.7.9",
